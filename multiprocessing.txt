@@ -1,0 +1,61 @@
+Script started on 2022-02-08 11:20:49+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;edugarza@edugarza-VirtualBox: ~[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~[00m$ md[Kkdir GIT
+]0;edugarza@edugarza-VirtualBox: ~[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~[00m$ cd GIT
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ ls
+0_procesos.py  1_procesos.py  2_procesos.py  3_procesos.py  4_procesos.py
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ touch README.md
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ ls
+0_procesos.py  2_procesos.py  4_procesos.py
+1_procesos.py  3_procesos.py  README.md
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ echo ""P"r"i"m"e"r"a" "p"r"a"c"t"i"c"a"[C >> README.md
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git init
+Inicializado repositorio Git vacío en /home/edugarza/GIT/.git/
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git add README.md
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git add README.md[K[K[K[K[K[K[K[K[K[K 0_procesos.py
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git add 0_procesos.py[1P_procesos.py1_procesos.py
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git add 1_procesos.py[C[1P_procesos.py2_procesos.py
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git add 2_procesos.py[1P_procesos.py3_procesos.py
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git add 3_procesos.py[1P_procesos.py4_procesos.py
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git status
+En la rama master
+
+No hay commits todavía
+
+Cambios a ser confirmados:
+  (usa "git rm --cached <archivo>..." para sacar del área de stage)
+	[32mnuevo archivo:  0_procesos.py[m
+	[32mnuevo archivo:  1_procesos.py[m
+	[32mnuevo archivo:  2_procesos.py[m
+	[32mnuevo archivo:  3_procesos.py[m
+	[32mnuevo archivo:  4_procesos.py[m
+	[32mnuevo archivo:  README.md[m
+
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git commit -m ""S"u"b"i"e"n"d"o" "l"o"s" "a"r"c"h"i"v"o"s"
+[master (commit-raíz) 6a472e7] Subiendo los archivos
+ 6 files changed, 119 insertions(+)
+ create mode 100644 0_procesos.py
+ create mode 100644 1_procesos.py
+ create mode 100644 2_procesos.py
+ create mode 100644 3_procesos.py
+ create mode 100644 4_procesos.py
+ create mode 100644 README.md
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git remote add origin ""h"t"t"p"s":"/"/"g"i"t"h"u"b"."c"o"m"/" [A]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce"d"u"g"a"r"z"a"/"e"d"u"g"z"a"[1P"[1P"a"r"z"a"."g"i"t"
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ git push -u origin master
+Username for 'https://github.com': edugarza
+Password for 'https://edugarza@github.com': 
+Enumerando objetos: 8, listo.
+Contando objetos:  12% (1/8)Contando objetos:  25% (2/8)Contando objetos:  37% (3/8)Contando objetos:  50% (4/8)Contando objetos:  62% (5/8)Contando objetos:  75% (6/8)Contando objetos:  87% (7/8)Contando objetos: 100% (8/8)Contando objetos: 100% (8/8), listo.
+Comprimiendo objetos:  14% (1/7)Comprimiendo objetos:  28% (2/7)Comprimiendo objetos:  42% (3/7)Comprimiendo objetos:  57% (4/7)Comprimiendo objetos:  71% (5/7)Comprimiendo objetos:  85% (6/7)Comprimiendo objetos: 100% (7/7)Comprimiendo objetos: 100% (7/7), listo.
+Escribiendo objetos:  12% (1/8)Escribiendo objetos:  25% (2/8)Escribiendo objetos:  37% (3/8)Escribiendo objetos:  62% (5/8)Escribiendo objetos:  87% (7/8)Escribiendo objetos: 100% (8/8)Escribiendo objetos: 100% (8/8), 1.43 KiB | 732.00 KiB/s, listo.
+Total 8 (delta 2), reusado 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/edugarza/edugarza/pull/new/master[K
+remote: 
+To https://github.com/edugarza/edugarza.git
+ * [new branch]      master -> master
+Rama 'master' configurada para hacer seguimiento a la rama remota 'master' de 'origin'.
+]0;edugarza@edugarza-VirtualBox: ~/GIT[01;32medugarza@edugarza-VirtualBox[00m:[01;34m~/GIT[00m$ exit
+
+Script done on 2022-02-08 11:25:24+01:00 [COMMAND_EXIT_CODE="0"]
